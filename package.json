@@ -1,0 +1,15 @@
+{
+  "name": "conhecimentos_aplicados",
+  "version": "1.0.0",
+  "description": "Projeto para praticar o que aprendi até agora, utilizando SASS, Node.Js, HTML e CSS.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AndreiX",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.90.0"
+  }
+}
