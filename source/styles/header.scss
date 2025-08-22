@@ -1,0 +1,18 @@
+@use '../config/cores.scss';
+
+header{
+    background-color: cores.$corHeader;
+    color: rgb(251, 252, 252);
+    padding: 18px 0;
+    margin-bottom: 10rem;
+}
+
+header .container{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-around;
+    img{
+        display: block;
+        height: 70px;
+    }
+}
