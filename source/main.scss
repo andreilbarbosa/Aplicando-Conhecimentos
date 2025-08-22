@@ -1,3 +1,8 @@
-@use '../source/config/reset.scss';
-@use '../source/config/cores.scss';
+//Site Configs
+@use './config/reset.scss';
+@use './config/cores.scss';
+//Site Header
+@use './styles/header.scss';
 
+//Site Body
+@use './styles/body.scss'; 
