@@ -5,12 +5,21 @@
 }
 
 header {
-  background-color: rgb(27, 6, 27);
+  background-color: rgb(44, 10, 44);
   color: rgb(251, 252, 252);
   padding: 18px 0;
   margin-bottom: 10rem;
+  animation: mudaHeader 3s infinite alternate;
 }
 
+@keyframes mudaHeader {
+  from {
+    background-color: rgb(44, 10, 44);
+  }
+  to {
+    background-color: rgb(68, 16, 68);
+  }
+}
 header .container {
   margin-top: 6px;
   display: flex;
@@ -23,6 +32,35 @@ header .container img {
 
 body {
   background-color: rgb(12, 3, 12);
+  color: rgb(230, 230, 230);
+}
+
+.container > .opening {
+  padding: 0 40px;
+  max-width: 100%;
+  width: 100%;
+}
+
+@keyframes mudaGif {
+  from {
+    border-radius: 40%;
+  }
+  to {
+    border-radius: 50%;
+  }
+}
+.opening-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 90%;
+  width: 100%;
+}
+.opening-box img {
+  width: 200px;
+  margin-left: 10em;
+  object-fit: cover;
+  animation: mudaGif 4s infinite alternate-reverse;
 }
 
 /*# sourceMappingURL=style.css.map */
