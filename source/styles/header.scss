@@ -5,6 +5,17 @@ header{
     color: rgb(251, 252, 252);
     padding: 18px 0;
     margin-bottom: 10rem;
+    animation: mudaHeader 3s infinite alternate;
+}
+
+//Mudança de cor no header
+@keyframes mudaHeader {
+    from{
+        background-color: cores.$corHeader;
+    }
+    to{
+        background-color: rgb(68, 16, 68);
+    }
 }
 
 header .container{
