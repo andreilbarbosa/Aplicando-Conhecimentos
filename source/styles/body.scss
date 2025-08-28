@@ -2,4 +2,34 @@
 
 body{
     background-color: cores.$corBody;
+    color: rgb(230, 230, 230);
+}
+
+.container > .opening{
+    padding: 0 40px;
+    max-width: 100%;
+    width: 100%;
+}
+
+@keyframes mudaGif{
+    from{
+        border-radius: 40%;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
+
+.opening-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 90%;
+    width: 100%;
+    img{
+        width: 200px;
+        margin-left: 10em;
+        object-fit: cover;
+        animation: mudaGif 4s infinite alternate-reverse;
+    }
 }
