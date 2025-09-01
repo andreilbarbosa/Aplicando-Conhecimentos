@@ -6,7 +6,7 @@ body{
 }
 
 .container > .opening{
-    padding: 0 40px;
+    padding: 0 0 10em;
     max-width: 100%;
     width: 100%;
 }
@@ -32,4 +32,8 @@ body{
         object-fit: cover;
         animation: mudaGif 4s infinite alternate-reverse;
     }
+}
+
+.list{
+    padding: 10em 0 10em;
 }
