@@ -49,4 +49,23 @@ body{
             color: rgb(224, 17, 224);
         }
     }
+    .tools{
+        height: 100%;
+        padding: 4em 0 10em;
+        align-content: center;
+        text-align: center;
+        h3{
+            margin-bottom: 2em;
+        }
+        img{
+            height: 70px;
+            padding-left: 2px;
+            cursor: pointer;
+
+            &:hover{
+                height: 72px;
+                position: relative;
+            }
+        }
+    }
 }
