@@ -36,4 +36,17 @@ body{
 
 .list{
     padding: 10em 0 10em;
+    .about-text{
+        justify-content: center;
+        text-align: center;
+        h2{
+            margin-bottom: 14px;
+        }
+        h4{
+            margin-bottom: 8px;
+        }
+        span{
+            color: rgb(224, 17, 224);
+        }
+    }
 }

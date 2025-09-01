@@ -66,5 +66,18 @@ body {
 .list {
   padding: 10em 0 10em;
 }
+.list .about-text {
+  justify-content: center;
+  text-align: center;
+}
+.list .about-text h2 {
+  margin-bottom: 14px;
+}
+.list .about-text h4 {
+  margin-bottom: 8px;
+}
+.list .about-text span {
+  color: rgb(224, 17, 224);
+}
 
 /*# sourceMappingURL=style.css.map */
