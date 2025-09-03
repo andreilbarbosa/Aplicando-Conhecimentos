@@ -84,18 +84,24 @@ body {
   padding: 4em 0 10em;
   align-content: center;
   text-align: center;
+  position: relative;
 }
 .list .tools h3 {
   margin-bottom: 2em;
 }
-.list .tools img {
+.list .tools .images-tools {
   height: 70px;
+}
+.list .tools .images-tools img {
+  height: 100%;
   padding-left: 2px;
   cursor: pointer;
+  object-fit: cover;
+  transition: transform 0.1s ease;
 }
-.list .tools img:hover {
-  height: 72px;
-  position: relative;
+.list .tools .images-tools img:hover {
+  transform: scale(1.1);
+  z-index: 10;
 }
 
 /*# sourceMappingURL=style.css.map */
