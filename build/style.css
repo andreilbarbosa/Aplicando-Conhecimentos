@@ -65,6 +65,7 @@ body {
 
 .list {
   padding: 10em 0 10em;
+  background: linear-gradient(to bottom, rgb(12, 3, 12), rgb(44, 10, 44));
 }
 .list .about-text {
   justify-content: center;
@@ -81,7 +82,7 @@ body {
 }
 .list .tools {
   height: 100%;
-  padding: 4em 0 10em;
+  padding: 4em 0 4em;
   align-content: center;
   text-align: center;
   position: relative;
@@ -102,6 +103,11 @@ body {
 .list .tools .images-tools img:hover {
   transform: scale(1.1);
   z-index: 10;
+}
+
+.projects {
+  background-color: rgb(44, 10, 44);
+  padding: 10em 0 10em;
 }
 
 /*# sourceMappingURL=style.css.map */
