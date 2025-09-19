@@ -109,5 +109,25 @@ body {
   background-color: rgb(44, 10, 44);
   padding: 10em 0 10em;
 }
+.projects .accordion {
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+}
+.projects .accordion-head {
+  width: 100%;
+  cursor: pointer;
+  background-color: black;
+}
+.projects .accordion-panel {
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.accordion.open .accordion-panel {
+  opacity: 1;
+}
 
 /*# sourceMappingURL=style.css.map */

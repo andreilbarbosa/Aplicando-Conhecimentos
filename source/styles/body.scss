@@ -83,4 +83,26 @@ body{
 .projects{
     background-color: cores.$corHeader;
     padding: 10em 0 10em;
+    
+    .accordion{
+        max-width: 200px;
+        width: 100%;
+        text-align: center;
+        &-head{
+            width: 100%;
+            cursor: pointer;
+            background-color: black;
+        }
+        
+        &-panel{
+            width: 100%;
+            text-align: center;
+            transition: all .3s ease-in-out;
+            opacity: 0;
+        }
+    }
+}
+
+.accordion.open .accordion-panel{
+    opacity: 1;
 }
