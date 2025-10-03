@@ -56,6 +56,9 @@ body {
   max-width: 90%;
   width: 100%;
 }
+.opening-box .text {
+  padding-right: 16em;
+}
 .opening-box img {
   width: 200px;
   margin-left: 10em;
@@ -107,7 +110,7 @@ body {
 
 .projects {
   background-color: rgb(44, 10, 44);
-  padding: 10em 0 10em;
+  padding: 8em 0 10em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -137,9 +140,15 @@ body {
 }
 .projects .accordions .accordion-panel {
   width: 100%;
+  margin-top: 1.5em;
   text-align: center;
   transition: all 0.3s ease-in-out;
   opacity: 0;
+}
+.projects .accordions .accordion-panel img {
+  border-radius: 6px;
+  width: 90%;
+  margin-bottom: 1.4em;
 }
 
 .accordion.open .accordion-panel {
