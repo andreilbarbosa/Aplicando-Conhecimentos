@@ -108,18 +108,34 @@ body {
 .projects {
   background-color: rgb(44, 10, 44);
   padding: 10em 0 10em;
+  display: flex;
+  flex-wrap: wrap;
 }
-.projects .accordion {
-  max-width: 200px;
+.projects-about {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  padding: 0 2em 2em;
+}
+.projects .accordions {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 4em 2em;
+  max-width: 100%;
+  width: 100%;
+  align-items: center;
+}
+.projects .accordions .accordion {
+  max-width: 400px;
   width: 100%;
   text-align: center;
 }
-.projects .accordion-head {
+.projects .accordions .accordion-head {
   width: 100%;
   cursor: pointer;
   background-color: black;
 }
-.projects .accordion-panel {
+.projects .accordions .accordion-panel {
   width: 100%;
   text-align: center;
   transition: all 0.3s ease-in-out;

@@ -83,24 +83,43 @@ body{
 .projects{
     background-color: cores.$corHeader;
     padding: 10em 0 10em;
+    display: flex;
+    flex-wrap: wrap;
     
-    .accordion{
-        max-width: 200px;
+    &-about{
+        display: block;
+        max-width: 100%;
         width: 100%;
-        text-align: center;
-        &-head{
-            width: 100%;
-            cursor: pointer;
-            background-color: black;
-        }
-        
-        &-panel{
+        padding: 0 2em 2em;
+    }
+
+    .accordions{
+        display: flex;
+        justify-content: space-between;
+        padding: 2em 4em 2em;
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+
+        .accordion{
+            max-width: 400px;
             width: 100%;
             text-align: center;
-            transition: all .3s ease-in-out;
-            opacity: 0;
+            &-head{
+                width: 100%;
+                cursor: pointer;
+                background-color: black;
+            }
+            
+            &-panel{
+                width: 100%;
+                text-align: center;
+                transition: all .3s ease-in-out;
+                opacity: 0;
+            }
         }
     }
+
 }
 
 .accordion.open .accordion-panel{
