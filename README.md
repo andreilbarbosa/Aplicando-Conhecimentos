@@ -1,4 +1,4 @@
-## Aplicando meus conhecimentos obtidos até o momento.
+## Aplicando meus conhecimentos obtidos até o momento 🧠
 ### Colocando em prática o que aprendi até o módulo SASS do Curso Front End Developer - EBAC. 
 
 Neste projeto, quero treinar:
